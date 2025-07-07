@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def fetch_data_from_mongo(symbol, collection_name):
-    client = MongoClient("mongodb+srv://admin:odgMvc682LYgK1KY@cluster0.4x6am.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    client = MongoClient("***")
     db = client["stock_database"]
     collection = db[collection_name]
 
